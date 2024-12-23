@@ -29,15 +29,3 @@
 ### Application Screenshot
 
 ![BaSeRPro_X3WdeoIfq1](https://github.com/user-attachments/assets/4ee0fefd-73fc-4e27-a072-70833700a910)
-
-### How to build own executable:
-
-1. Have Python and module `PyInstaller` installed onto correponding operating system (Mac / Windows / Linux), along with the requirements.txt prerequisites
-
-2. Type the following command
-
-		git clone https://github.com/TerminatedGB/BaSeRPro.git (not yet publicly available)
-		cd ./BaSeRPro/src
-		python -m PyInstaller --onefile --windowed --hidden-import=scoring_matrices --name=BaSeRPro --icon=BaSeRPro.ico ./main.py
-
-3. Generated application is found in `.src/dist/BaSeRPro.exe`
