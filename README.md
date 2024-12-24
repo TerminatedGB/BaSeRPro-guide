@@ -4,7 +4,7 @@
 
 ### Application Preview
 
-<img src="https://github.com/user-attachments/assets/3f045395-5980-40d5-94bf-f1a2d64c3c5c" width="600" />
+<img src="https://github.com/user-attachments/assets/3f045395-5980-40d5-94bf-f1a2d64c3c5c" width="720" />
 
 ### Features
 
