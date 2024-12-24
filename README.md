@@ -1,7 +1,6 @@
 
-#![BaSeRPro](https://github.com/user-attachments/assets/59673387-cacb-4cca-a27c-03681739a9d5 = 250x250)
 <img src="https://github.com/user-attachments/assets/59673387-cacb-4cca-a27c-03681739a9d5" width="250" />
- BaSeRPro - Batch Sequence Retrieval and Processing for GenBank
+# BaSeRPro - Batch Sequence Retrieval and Processing for GenBank
 
 ### Application Screenshot
 
