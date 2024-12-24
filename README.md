@@ -1,5 +1,9 @@
 # BaSeRPro - Batch Sequence Retrieval and Processing for GenBank
 
+### Application Screenshot
+
+![BaSeRPro_X3WdeoIfq1](https://github.com/user-attachments/assets/3f045395-5980-40d5-94bf-f1a2d64c3c5c)
+
 ### Features
 
 * Portable Application (Windows / Mac / Linux)
@@ -26,8 +30,6 @@
 * Automatically retries search using provided email only if API key is invalid
 
 
-### Application Screenshot
 
-![BaSeRPro_X3WdeoIfq1](https://github.com/user-attachments/assets/3f045395-5980-40d5-94bf-f1a2d64c3c5c)
 
 
