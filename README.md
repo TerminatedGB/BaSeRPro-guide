@@ -2,7 +2,7 @@
 
 # BaSeRPro - Batch Sequence Retrieval and Processing for GenBank
 
-### Application Screenshot
+### Application Preview
 
 ![BaSeRPro_X3WdeoIfq1](https://github.com/user-attachments/assets/3f045395-5980-40d5-94bf-f1a2d64c3c5c)
 
