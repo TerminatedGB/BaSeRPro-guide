@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/59673387-cacb-4cca-a27c-03681739a9d5" width="120" align="left" />
+<img src="https://github.com/user-attachments/assets/59673387-cacb-4cca-a27c-03681739a9d5" width="100" align="left" />
 
 # BaSeRPro - Batch Sequence Retrieval and Processing for GenBank
 
