@@ -11,13 +11,13 @@
 * Portable Application (Windows / Mac / Linux)
 * Retrieves GenBank sequences from following arguments (comma seperated OR in multiple fields): 
   * Multiple species / organism (at least one argument must be supplied)
-  * Strain / Isolate 
+  * Strain / Isolate / Title / Wildcard(Any)
   * Gene / product (at least one argument must be supplied)
   * Sequence length / range
   * Country
   * Title of record (according to GenBank .GBFF format)
   * Three RefSeq modes: All sequences / RefSeq only / RefSeq priority (preferentially extracts RefSeq sequences first. If number of target records is not achieved, continue retrieval with non-Refseq sequences)
-  * Two extraction modes: Single Gene (Extracts single gene) / Gene range (Extracts segment of sequence to another [Requires input of two gene/product arguments])
+  * Three extraction modes: Single Gene (Extracts single gene) / Gene Range (Extracts segment of sequence to another [Requires input of two gene/product arguments]) / Entire Sequence
 * Progress bar for fetching GenBank sequences
 * Automatically generates .xlsx file containing annotations/summary of extracted GenBank records
 * Automatically aligns sequences using FAMSA alignment
