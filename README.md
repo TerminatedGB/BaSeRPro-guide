@@ -5,7 +5,6 @@
 ### Application Preview
 
 <img src="https://github.com/user-attachments/assets/c1129427-0a29-4582-baf9-f3553f39e797" width="720" />
-![BaSeRPro-v0 0 9_sGluw37xaI]()
 
 ### Features
 
