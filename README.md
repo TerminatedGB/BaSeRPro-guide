@@ -4,21 +4,27 @@
 
 ### Application Preview
 
-<img src="https://github.com/user-attachments/assets/3f045395-5980-40d5-94bf-f1a2d64c3c5c" width="720" />
+<img src="https://github.com/user-attachments/assets/c1129427-0a29-4582-baf9-f3553f39e797" width="720" />
+![BaSeRPro-v0 0 9_sGluw37xaI]()
 
 ### Features
 
 * Portable Application (Windows / Mac / Linux)
 * Retrieves GenBank sequences from following arguments (comma seperated OR in multiple fields): 
   * Multiple species / organism (at least one argument must be supplied)
-  * Strain / Isolate / Title / Wildcard(Any)
-  * Gene / product (at least one argument must be supplied)
+  * Strain / Isolate / Title / Wildcard (Any)
+  * Gene / Product / Locus tag (at least one argument must be supplied)
   * Sequence length / range
   * Country
   * Title of record (according to GenBank .GBFF format)
   * Three RefSeq modes: All sequences / RefSeq only / RefSeq priority (preferentially extracts RefSeq sequences first. If number of target records is not achieved, continue retrieval with non-Refseq sequences)
-  * Three extraction modes: Single Gene (Extracts single gene) / Gene Range (Extracts segment of sequence to another [Requires input of two gene/product arguments]) / Entire Sequence
+  * Four extraction modes:
+    * Single gene
+    * Gene range (Extracts segment of sequence from one gene to another [Requires input of two gene/product/locus tag arguments])
+    * Gene order (Extracts segment of sequence when a specific order of genes is met [Requires input of two or moregene/product/locus tag arguments])
+    * Entire sequence
 * Progress bar for fetching GenBank sequences
+* Automatic retries sequence retrieval to obtain desired number of target sequences if duplicate accession number is found (e.g. NZ_ vs. non-NZ_)
 * Automatically generates .xlsx file containing annotations/summary of extracted GenBank records
 * Automatically aligns sequences using FAMSA alignment
 * Automatically trims gaps in sequence using gap threshold (0-1)
@@ -32,6 +38,8 @@
   * Base frequencies of degenerate bases are shown in .xlsx summary file
 * Automatically generates conservation plot based on consensus sequence (only positions with degenerate bases from consensus sequence are shown)
 * Automatically retries search using provided email only if API key is invalid
+* Advanced features
+  * Expand extracted sequence range by number of base pairs upstream/downstream (used for checking gene boundaries)
 
 
 
